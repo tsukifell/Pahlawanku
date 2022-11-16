@@ -23,8 +23,9 @@ public class DataPahlawan {
         for(String[] varData : data){
             ModelPahlawan model = new ModelPahlawan();
             model.setNama(varData[0]);
-            model.setFoto([2]);
-            model.setTentang([1]);
+            model.setTentang(varData[1]);
+            model.setFoto(varData[2]);
+
 
             dataPahlawan.add(model);
         }
